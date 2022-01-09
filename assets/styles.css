@@ -29,6 +29,7 @@ html, body{
     background: #E5E5E5;
     font-family: "Montserrat";
     padding: 20px;
+    height: 100%;
 }
 
 .bigemail{
@@ -54,6 +55,7 @@ html, body{
 }
 
 .foot {
+    position: absolute;
     bottom: 0px;
 }
 
