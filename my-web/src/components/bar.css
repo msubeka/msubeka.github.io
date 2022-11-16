@@ -1,0 +1,78 @@
+
+  
+  .menuNav {
+    display:none;
+    overflow-y: scroll;
+    list-style: none;
+    height: 100vh;
+    position: fixed;
+    width: 0;
+    overflow: hidden;
+    max-width: 290px;
+    z-index: 101;
+  }
+  
+  .menuNav.showMenu {
+    animation-name: slide;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    width: 100%;
+    display:block;
+    color: #423962;
+  }
+
+  @media only screen and (min-width: 769px) {
+    .menuNav {
+       display: none;
+    }
+    .darkenScreen {
+        display: none;
+    }
+}
+  @keyframes slide {
+    0% {width: 0;}
+    100% {width: 100%;}
+  }
+
+  
+  .menuNav li:first-child {
+    margin-top: 7rem;
+  }
+
+  .menuNav li {
+    margin-top: 1rem;
+  }
+
+  button {
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    border-color: transparent;
+  }
+
+  .darkenScreen {
+    height: 100vh;
+    margin-top: -15px;
+    margin-bottom: -15px;
+    margin-right: -100px;
+    left: 0;
+    width:100%;
+    animation-name: slide;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    overflow-y: scroll;
+    list-style: none;
+    position: fixed;
+    top: 0;
+    background: #D5CEE1;
+    left: 0;
+    bottom: 0;
+  }
+
+a {
+    color: #4A3269;
+}
+  a.is-active, a:hover{
+    transition: all 0.2s ease-in-out;
+    color: white;
+}
