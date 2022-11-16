@@ -10,10 +10,10 @@
   "static/media/pages.css": "/static/media/background.e76e3ca6.jpg",
   "static/media/logo.png": "/static/media/logo.790fc182.png",
   "static/media/me2.jpg": "/static/media/me2.cfcfa213.jpg",
-  "static/media/index.css": "/static/media/montserrat-latin-400-normal.b4a68b1e.woff2",
-  "static/css/1.bf111519.chunk.css.map": "/static/css/1.bf111519.chunk.css.map",
+  "static/media/index.css": "/static/media/montserrat-all-400-normal.88b2997a.woff",
   "static/css/main.44e3e2f4.chunk.css.map": "/static/css/main.44e3e2f4.chunk.css.map",
+  "static/css/1.bf111519.chunk.css.map": "/static/css/1.bf111519.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.6d470fa6a37065a762e1aa55c420cf43.js": "/precache-manifest.6d470fa6a37065a762e1aa55c420cf43.js",
+  "precache-manifest.5566acfffd4440c1266811f71993e536.js": "/precache-manifest.5566acfffd4440c1266811f71993e536.js",
   "service-worker.js": "/service-worker.js"
 }
