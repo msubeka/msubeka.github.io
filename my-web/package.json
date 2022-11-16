@@ -1,7 +1,7 @@
 {
   "name": "my-web",
   "version": "0.1.0",
-  "homepage": "https://msubeka.github.io/react-gh-pages",
+  "homepage": "https://msubeka.github.io/",
   "private": true,
   "dependencies": {
     "@fontsource/montserrat": "^4.5.13",
